@@ -1,7 +1,9 @@
 .appShell {
-  margin: 0 auto;
-  max-width: 1380px;
-  padding: 1.4rem;
+  --page-gutter: clamp(1rem, 2.8vw, 1.95rem);
+  width: min(1380px, calc(100% - (var(--page-gutter) * 2)));
+  margin: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.4rem;
   display: grid;
   gap: 1rem;
 }
@@ -62,7 +64,7 @@
 .heroMetrics {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   gap: 0.65rem;
 }
 
@@ -190,6 +192,7 @@
 .filters select {
   border: 1px solid #c6d4c4;
   border-radius: 0.68rem;
+  min-height: 2.8rem;
   padding: 0.58rem 0.7rem;
   font-family: inherit;
   font-size: 0.92rem;
@@ -210,6 +213,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
+  align-items: stretch;
 }
 
 .missableGuide {
@@ -247,11 +251,14 @@
   background: #f8fbf7;
   color: #19301b;
   border-radius: 0.65rem;
+  min-height: 2.75rem;
   padding: 0.48rem 0.78rem;
   font-family: inherit;
   font-size: 0.86rem;
+  line-height: 1.25;
   font-weight: 600;
   cursor: pointer;
+  touch-action: manipulation;
   transition: background 120ms ease, transform 120ms ease, border-color 120ms ease;
 }
 
@@ -287,6 +294,7 @@
   background: #eef5eb;
   color: #2d412f;
   border-radius: 999px;
+  min-height: 2rem;
   padding: 0.25rem 0.6rem;
   font-family: inherit;
   font-size: 0.78rem;
@@ -420,7 +428,13 @@
   border: 1px solid #cad7c8;
   border-radius: 0.72rem;
   overflow: auto;
+  scroll-padding: 0.75rem;
   scrollbar-gutter: stable both-edges;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tableSwipeHint {
+  display: none;
 }
 
 table {
@@ -487,6 +501,11 @@ thead .stickyLeft {
 .checkColumn {
   text-align: center;
   width: 44px;
+}
+
+.checkColumn input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
 }
 
 .nameCell {
@@ -623,26 +642,253 @@ thead .stickyLeft {
   padding: 1.2rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
   .appShell {
-    padding: 0.8rem;
+    --page-gutter: clamp(0.95rem, 3.4vw, 1.5rem);
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
   }
 
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+    gap: 1rem;
+  }
+
+  .filters {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+
+  table {
+    min-width: 1080px;
+  }
+
+  .details {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
     padding: 1rem;
   }
 
   .heroMeter {
-    justify-items: start;
+    order: -1;
+    justify-items: center;
   }
 
   .meterRing {
-    --ring-size: min(58vw, 180px);
+    --ring-size: min(42vw, 190px);
+  }
+
+  .heroMetrics,
+  .filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .tablePanel {
-    padding: 0.8rem;
+    padding: 0.85rem;
+  }
+
+  .tableActions {
+    width: 100%;
+  }
+
+  .tableActions .actionButton {
+    flex: 1 1 calc(50% - 0.3rem);
+    text-align: center;
+    white-space: normal;
+  }
+
+  .tableSwipeHint {
+    display: block;
+    margin: 0.5rem 0 0;
+    color: #4a604c;
+    font-size: 0.78rem;
+    letter-spacing: 0.01em;
+  }
+
+  table {
+    min-width: 940px;
+  }
+
+  .riskCell {
+    min-width: 230px;
+  }
+
+  .details {
+    min-width: 260px;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero,
+  .filterPanel,
+  .deckPanel,
+  .tablePanel {
+    padding: 0.88rem;
+  }
+
+  .heroDescription {
+    max-width: none;
+  }
+
+  .deckGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .quickActions,
+  .tableActions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .quickActions .actionButton,
+  .tableActions .actionButton {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .activeChips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.2rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .activeChips button {
+    flex: 0 0 auto;
+  }
+
+  table {
+    min-width: 760px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 0.48rem 0.5rem;
+  }
+
+  .nameCell {
+    min-width: 165px;
+  }
+
+  .riskCell {
+    min-width: 205px;
+  }
+
+  .details {
+    min-width: 225px;
+    max-width: 340px;
+  }
+
+  thead th:nth-child(5),
+  tbody td:nth-child(5),
+  thead th:nth-child(6),
+  tbody td:nth-child(6),
+  thead th:nth-child(7),
+  tbody td:nth-child(7) {
+    display: none;
+  }
+
+  .checkColumn input[type="checkbox"] {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .appShell {
+    --page-gutter: clamp(0.78rem, 4.6vw, 1rem);
+    padding-top: 0.78rem;
+    padding-bottom: 0.92rem;
+  }
+
+  .hero,
+  .filterPanel,
+  .deckPanel,
+  .tablePanel {
+    padding: 0.78rem;
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(1.2rem, 7vw, 1.6rem);
+    margin-top: 0.2rem;
+  }
+
+  .heroMetrics,
+  .filters,
+  .deckGrid,
+  .quickActions,
+  .tableActions {
+    grid-template-columns: 1fr;
+  }
+
+  .meterRing {
+    --ring-size: min(52vw, 170px);
+  }
+
+  .tablePanelHeader {
+    align-items: flex-start;
+  }
+
+  table {
+    min-width: 640px;
+  }
+
+  .nameCell {
+    min-width: 145px;
+  }
+
+  .riskCell {
+    min-width: 180px;
+  }
+
+  .details {
+    min-width: 205px;
+    max-width: none;
+  }
+
+  thead th:nth-child(2),
+  tbody td:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .appShell {
+    --page-gutter: 0.72rem;
+  }
+
+  .tableWrap {
+    margin-top: 0.7rem;
+    border-radius: 0.62rem;
+  }
+
+  table {
+    min-width: 560px;
+  }
+
+  .checkColumn {
+    width: 36px;
+  }
+
+  .stickyLeft {
+    position: static;
+    box-shadow: none;
+  }
+
+  .tableSwipeHint {
+    font-size: 0.75rem;
+    margin-top: 0.45rem;
+  }
+}
+
+@media (hover: none) {
+  .actionButton:hover:enabled {
+    transform: none;
   }
 }
 

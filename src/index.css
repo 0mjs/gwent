@@ -25,8 +25,15 @@ body,
   min-height: 100%;
 }
 
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 body {
   margin: 0;
+  overflow-x: hidden;
   background:
     radial-gradient(
       circle at 10% 10%,

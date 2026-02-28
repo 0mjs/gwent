@@ -718,6 +718,10 @@ function App() {
           </div>
         </div>
 
+        <p className="tableSwipeHint">
+          On phones, swipe the table sideways to view additional columns.
+        </p>
+
         <div className="tableWrap">
           <table>
             <thead>
