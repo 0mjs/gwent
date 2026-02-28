@@ -1,0 +1,9 @@
+{
+  "lock": false,
+  "nodeModulesDir": true,
+  "tasks": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  }
+}

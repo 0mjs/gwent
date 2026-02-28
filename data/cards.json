@@ -1,0 +1,2288 @@
+[
+  {
+    "deck": "Nilfgaard",
+    "details": "Crow's Perch, Trader",
+    "expansion": "Base game",
+    "name": "Albrich",
+    "picture": "2672ea8b0ccfcd643472cd447d40cc2e9400620c.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Ard Skellig, Arinbjorn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Arachas (1 of 3)",
+    "picture": "b489ec7e442881cad1b72d605018fabbbf58b85f.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "An Skellig, Urialla Village, Innkeeper",
+    "expansion": "Base game",
+    "name": "Arachas (2 of 3)",
+    "picture": "f200fc4f6d6ad9c6d8100ac234e3b0e6b7aa7398.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Spikeroog, Svorlag, Innkeeper",
+    "expansion": "Base game",
+    "name": "Arachas (3 of 3)",
+    "picture": "2832cc56fe523f2c8472ccd9552dfd0375fb2e97.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Arachas Behemoth",
+    "picture": "b01b0600eab5d53eff43f3d2c8fd0d51d545636e.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Assire var Anahid",
+    "picture": "8c35aa932279c6ca0ba96af0cd57d23752eba4c4.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Ballista (1 of 2)",
+    "picture": "d9baab72f4639d68a3119ef0b8e4657598270e20.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game (bug: sometimes you start with just one)",
+    "expansion": "Base game",
+    "name": "Ballista (2 of 2)",
+    "picture": "5ae5166b5ab9004f5a86cfc061279c6ba68fe360.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Golden Sturgeon, Innkeeper",
+    "expansion": "Base game",
+    "name": "Barclay Els",
+    "picture": "25f74de708e359acd0994b5ba45af337fe1e1a58.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Biting Frost (1 of 3)",
+    "picture": "b2559f33114f26ef792d3114f0c76ab1d3c0904b.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Biting Frost (2 of 3)",
+    "picture": "b2559f33114f26ef792d3114f0c76ab1d3c0904b.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Biting Frost (3 of 3)",
+    "picture": "b2559f33114f26ef792d3114f0c76ab1d3c0904b.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Claywich Village, Trader (first rescue at persons in distress marker on the large island to the east of Oreton)",
+    "expansion": "Base game",
+    "name": "Black Infantry Archer (1 of 2)",
+    "picture": "7c6785599ce5688c41f08b3480356664bc2e3ff8.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Lindenvale, Merchant",
+    "expansion": "Base game",
+    "name": "Black Infantry Archer (2 of 2)",
+    "picture": "cdc5bba3c00205ea6b6b0f32d65d1e8d0078de58.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Blue Stripes Commando (1 of 3)",
+    "picture": "a26676ed24c4e9119cacdedb88fc6a092d7d0ca9.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Blue Stripes Commando (2 of 3)",
+    "picture": "a26676ed24c4e9119cacdedb88fc6a092d7d0ca9.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "White Orchard Tavern, Innkeeperess (or Trader outside)",
+    "expansion": "Base game",
+    "name": "Blue Stripes Commando (3 of 3)",
+    "picture": "a26676ed24c4e9119cacdedb88fc6a092d7d0ca9.png",
+    "territory": "White Orchard",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Ard Skellig, Kaer Trolde Harbor, New Port Inn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Botchling",
+    "picture": "b5217613af29b9addc31b925c5b9f1c0bd7859b4.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Cahir Mawr Dyffryn aep Ceallach",
+    "picture": "478a9ffb203afd7f777a3d847ee5107b5f0903f1.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "White Orchard Tavern, Innkeeperess (or Trader outside)",
+    "expansion": "Base game",
+    "name": "Catapult (1 of 2)",
+    "picture": "81fc4051a2f053de57125e5ed0bb9fdf261099b1.png",
+    "territory": "White Orchard",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Passiflora, Marquise Serenity",
+    "expansion": "Base game",
+    "name": "Catapult (2 of 2)",
+    "picture": "81fc4051a2f053de57125e5ed0bb9fdf261099b1.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Celaeno Harpy",
+    "picture": "b309c4773178ba1bc10ab8a27a7b46958748cbb2.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Ciaran aep Easnillien",
+    "picture": "04482cd898a2e4d4df990e8355a93c823c7f0163.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Gwent: Big City Players, Novigrad Forest Camp, Scoia'Tael merchant",
+    "expansion": "Base game",
+    "name": "Cirilla Fiona Elen Riannon",
+    "picture": "de56ab3b0f2cf5eb4410e8856cd41ed22594ee85.png",
+    "territory": "Novigrad (Grassy Knoll)",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Clear Weather (1 of 3)",
+    "picture": "42ffab2242de5be91f0f22545d9f84975643acfe.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game OR Randomly earned",
+    "expansion": "Base game",
+    "name": "Clear Weather (2 of 3)",
+    "picture": "42ffab2242de5be91f0f22545d9f84975643acfe.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game OR Randomly earned",
+    "expansion": "Base game",
+    "name": "Clear Weather (3 of 3)",
+    "picture": "42ffab2242de5be91f0f22545d9f84975643acfe.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Cockatrice",
+    "picture": "58ee7adef02cd0aad8125fc37b84177ce86b1adf.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Inn at the Crossroads, Innkeeper (can appear a 2nd time after inventory refresh)",
+    "expansion": "Base game",
+    "name": "Commander's Horn (1 of 3)",
+    "picture": "7427245c9487eff9aef728bb94bcd8fad3547cd3.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Passiflora, Marquise Serenity (note: card could be missing)",
+    "expansion": "Base game",
+    "name": "Commander's Horn (2 of 3)",
+    "picture": "7427245c9487eff9aef728bb94bcd8fad3547cd3.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Oxenfurt, The Alchemy Inn, Stjepan",
+    "expansion": "Base game",
+    "name": "Commander's Horn (3 of 3)",
+    "picture": "7427245c9487eff9aef728bb94bcd8fad3547cd3.png",
+    "territory": "Novigrad (Oxenfurt)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "White Orchard Tavern, Innkeeperess (or Trader outside)",
+    "expansion": "Base game",
+    "name": "Crinfrid Reavers Dragon Hunter (1 of 3)",
+    "picture": "c65d5a78a9dc979da71778b5ba52254e6e41df20.png",
+    "territory": "White Orchard",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Claywich Village, Trader (first rescue at persons in distress marker on the large island to the east of Oreton)",
+    "expansion": "Base game",
+    "name": "Crinfrid Reavers Dragon Hunter (2 of 3)",
+    "picture": "c65d5a78a9dc979da71778b5ba52254e6e41df20.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Midcopse, Shopkeeper",
+    "expansion": "Base game",
+    "name": "Crinfrid Reavers Dragon Hunter (3 of 3)",
+    "picture": "c65d5a78a9dc979da71778b5ba52254e6e41df20.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Crone: Brewess",
+    "picture": "f79b3235f741c1858f3f0b353314769d431bf1e9.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Gwent: Velen Players, Benek, Old Sage",
+    "expansion": "Base game",
+    "name": "Crone: Weavess",
+    "picture": "1f739142115db90aaccfcf6d765d1b11aba4b9bc.png",
+    "territory": "Velen",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Ard Skellig, Arinbjorn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Crone: Whispess",
+    "picture": "56b636a8ca67e8fcf2e457a87702a82d8b287832.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Crow's Perch, Quartermaster's Baron's Store",
+    "expansion": "Base game",
+    "name": "Cynthia",
+    "picture": "595b4d38a3e46d30c3402fea1c686506d48211e0.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "A Matter of Life and Death, Vegelbud Estate, Marius Florin (final round)",
+    "expansion": "Base game",
+    "name": "Dandelion",
+    "picture": "7828ff6d0a0bcbfada0685e076e4184b0920edf4.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Neutral",
+    "details": "White Orchard Tavern, Innkeeperess (or Trader outside after prologue)",
+    "expansion": "Base game",
+    "name": "Decoy (1 of 3)",
+    "picture": "1eb3024da3482b9c7857412580c431a5f386b126.png",
+    "territory": "White Orchard",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Crow's Perch, Quartermaster's Baron's Store (can appear a 2nd time after inventory refresh)",
+    "expansion": "Base game",
+    "name": "Decoy (2 of 3)",
+    "picture": "1eb3024da3482b9c7857412580c431a5f386b126.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Seven Cats Inn, Innkeeper (note: card could be missing)",
+    "expansion": "Base game",
+    "name": "Decoy (3 of 3)",
+    "picture": "1eb3024da3482b9c7857412580c431a5f386b126.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Dennis Cranmer",
+    "picture": "2578ad3d58d7898e14f4f2e6556c16207f63a311.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Dethmold",
+    "picture": "57c5720782825eaf647bc5c0e82c2c452fd86287.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Passiflora, Marquise Serenity",
+    "expansion": "Base game",
+    "name": "Dol Blathanna Archer",
+    "picture": "3f6fb206a46e43c3a4f5333bf9a349c8ad60fc46.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Dol Blathanna Scout (1 of 3)",
+    "picture": "60073ecb7453f55c97d395c77d017aa5e5b03d34.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Dol Blathanna Scout (2 of 3)",
+    "picture": "6e3616c2614cc72e749e5101aea5ea3ec00d2b07.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Golden Sturgeon, Innkeeper",
+    "expansion": "Base game",
+    "name": "Dol Blathanna Scout (3 of 3)",
+    "picture": "e316086856454c64419ed845f040081822d23b29.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Gwent: Skellige Style, Ard Skellig, Kaer Trolde, Crach an Craite OR automatically received (if not played before On Thin Ice starts)",
+    "expansion": "Base game",
+    "name": "Draug",
+    "picture": "56c49998e048610536b7ce33cf64bacb4f5ba993.png",
+    "territory": "Skellige",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Dun Banner Medic",
+    "picture": "bc840f8d70f5edc13c0f153dc533a27529ffe7d2.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Dwarven Skirmisher (1 of 3)",
+    "picture": "aba0b304b64d7761494ecc62dfb5ae9997284094.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Dwarven Skirmisher (2 of 3)",
+    "picture": "4fd28057e53967057a7c660cbd8c6c741cf0f9e1.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Oxenfurt, The Alchemy Inn, Stjepan OR Randomly earned",
+    "expansion": "Base game",
+    "name": "Dwarven Skirmisher (3 of 3)",
+    "picture": "974dae05f68eb0dd6baec6353dfc66a2423e9a70.png",
+    "territory": "Novigrad (Oxenfurt)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Ard Skellig, Kaer Trolde Harbor, New Port Inn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Earth Elemental",
+    "picture": "a257ea45ae1f28679bc60a38428d528649f14d13.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Gwent: Old Pals, Rosemary and Thyme, Zoltan",
+    "expansion": "Base game",
+    "name": "Eithné",
+    "picture": "ad115e7caead9c11b2462fe2eb0d35cf5d225b4e.png",
+    "territory": "Novigrad",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Elven Skirmisher (1 of 3)",
+    "picture": "79cccd310f0094b8e79dfd3650c2b4f900c32cde.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Elven Skirmisher (2 of 3)",
+    "picture": "91963451b44a1c3362bf23287ecc9afd66c7a4e3.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "An Skellig, Urialla Village, Innkeeper",
+    "expansion": "Base game",
+    "name": "Elven Skirmisher (3 of 3)",
+    "picture": "d72c4855416021b05328a9630caab290ac7735e0.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Inn at the Crossroads, Innkeeper",
+    "expansion": "Base game",
+    "name": "Emhyr var Emreis: Emperor of Nilfgaard",
+    "picture": "643130d3f352027b30da4a5243211d95edf60347.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Emhyr var Emreis: His Imperial Majesty",
+    "picture": "c7c1ca751c0435edc79d800fdcbac89c0c08f8ca.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "High Stakes, Passiflora, Sasha",
+    "expansion": "Base game",
+    "name": "Emhyr var Emreis: The Relentless",
+    "picture": "6eb975495cff099f10c6095fa4d739a9b80f8be8.png",
+    "territory": "Novigrad",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Gwent: Skellige Style, reward for completing the quest",
+    "expansion": "Base game",
+    "name": "Emhyr var Emreis: The White Flame",
+    "picture": "c1ade6d6dbd59b6cc947e90021a984f1357d76a1.png",
+    "territory": "Skellige",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Emiel Regis Rohellec Terzieff",
+    "picture": "39c7931d92945f33cd7d3086ddf62603294d75c8.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Endrega",
+    "picture": "de49ce503de314bcdaa7aa5a586763ef950c32d6.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "High Stakes, Passiflora, Count Tybalt",
+    "expansion": "Base game",
+    "name": "Eredin: Bringer of Death",
+    "picture": "0ef43dd6d809c31c34dacec55f0b1375be87e8bb.png",
+    "territory": "Novigrad",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Kaer Trolde Harbor, New Port Inn, Innkeeper OR Included at start of game",
+    "expansion": "Base game",
+    "name": "Eredin: Commander of the Red Riders",
+    "picture": "22a678a340afcc50ec1c5ca812438dde8b8f86f9.png",
+    "territory": "Base Deck",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Gwent: Velen Players, reward for completing the quest",
+    "expansion": "Base game",
+    "name": "Eredin: Destroyer of Worlds",
+    "picture": "c904d52fa0c451690541cf0dc9a99e72ac634b6e.png",
+    "territory": "Velen",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Included at start of game OR Kaer Trolde Harbor, New Port Inn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Eredin: King of the Wild Hunt",
+    "picture": "e5b1129ee1135743808195eadbdb2593df2fd45b.png",
+    "territory": "Skellige",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Gwent: Big City Players, Bathhouse, Sigismund Dijkstra OR automatically received if he dies",
+    "expansion": "Base game",
+    "name": "Esterad Thyssen",
+    "picture": "5adbd593312dbdbca6603a5ea14fb0dd797b1c50.png",
+    "territory": "Novigrad",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Lindenvale, Merchant",
+    "expansion": "Base game",
+    "name": "Etolian Auxiliary Archers (1 of 2)",
+    "picture": "4a95561e44c919000c51ef24d0884b759b3c4ff4.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Claywich Village, Trader (first rescue at persons in distress marker on the large island to the east of Oreton)",
+    "expansion": "Base game",
+    "name": "Etolian Auxiliary Archers (2 of 2)",
+    "picture": "8e398babb166aecbd62ad5a9da40619c78a072bc.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Ard Skellig, Arinbjorn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Fiend",
+    "picture": "c2abe58028f9698194f9fe958a0b92eb197b3943.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Filavandrel aen Fidhail",
+    "picture": "32c2828cfe49a61fb5591ce9b5a87295f1344e28.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Fire Elemental",
+    "picture": "aeb1b43f1490015e432dcf5841da02f9455a1aea.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Spikeroog, Svorlag, Innkeeper",
+    "expansion": "Base game",
+    "name": "Foglet",
+    "picture": "cda1377873abbe6373af682658be5e7c5b4b3080.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Foltest: King of Temeria",
+    "picture": "95899f5e587fa4a76681d67aa29006e80f6b6cfc.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "White Orchard Tavern, Innkeeperess (or Trader outside)",
+    "expansion": "Base game",
+    "name": "Foltest: Lord Commander of the North",
+    "picture": "7faf2e7ed5123d18957010329a48ba9d9ca8f0c0.png",
+    "territory": "White Orchard",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Vizima Palace Couryard, Nilfgaardian Nobleman",
+    "expansion": "Base game",
+    "name": "Foltest: The Siegemaster",
+    "picture": "248abf8b1bf594244044def44551e8a3624b20e3.png",
+    "territory": "Palace of Vizima",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "High Stakes, Passiflora, Bernard Tulle",
+    "expansion": "Base game",
+    "name": "Foltest: The Steel-Forged",
+    "picture": "962662a536f6f4f673f81976e6f9d792b71251b5.png",
+    "territory": "Novigrad",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Forktail",
+    "picture": "fc6aaade38025d19048cecc2a42713e4c0625bfe.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Cunny of the Goose, Innkeeper",
+    "expansion": "Base game",
+    "name": "Francesca Findabair: Daisy of the Valley",
+    "picture": "b0a03480913660ccec65783af3d39e0a00ace18c.png",
+    "territory": "Novigrad (Grassy Knoll)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Francesca Findabair: Pureblood Elf",
+    "picture": "0ca45122c399c94cf4593cf27b1e5daa7c637be8.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "High Stakes, Passiflora, Finneas",
+    "expansion": "Base game",
+    "name": "Francesca Findabair: Queen of Dol Blathanna",
+    "picture": "8d29f5ff325b9784cba914aae16abed024b63ae2.png",
+    "territory": "Novigrad",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Gwent: Big City Players, reward for completing the quest",
+    "expansion": "Base game",
+    "name": "Francesca Findabair: The Beautiful",
+    "picture": "d6937efb9b3f037b89cbef15a26c10d2468b17bb.png",
+    "territory": "Novigrad",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Frightener",
+    "picture": "1c4a13f769a1e47ff5bcd1d2b16f7fd13df44482.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "A Dangerous Game, Hierarch Square, Caesar Bilzen's house OR Prison Warden body during The Great Escape",
+    "expansion": "Base game",
+    "name": "Fringilla Vigo",
+    "picture": "ec9f96acf36177b0ca4404ab5e16806e80f2872e.png",
+    "territory": "Novigrad",
+    "type": "Secondary Quest OR Loot"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Gargoyle",
+    "picture": "4f56dc0bceb52bfd4099e12dc6a64dcee8eef82c.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Gwent: Old Pals OR Gwent: Play Thaler, The Seven Cats Inn, Thaler OR Seven Cats Inn, top of a crate at the end of the side dining hall (no objective, use witcher senses)",
+    "expansion": "Base game",
+    "name": "Geralt of Rivia",
+    "picture": "0ef618d54c570aa02d384ed6739ab915ef989b72.png",
+    "territory": "Novigrad",
+    "type": "Gwent Quest OR Loot"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Ghoul (1 of 3)",
+    "picture": "57b68d47e803183b6e41ea6c4188fce33885906b.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Ghoul (2 of 3)",
+    "picture": "a3de392a2aeaf22bbfe75b4d0e6314a9dd0bd1dc.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Faroe, Harviken tavern, Innkeeper",
+    "expansion": "Base game",
+    "name": "Ghoul (3 of 3)",
+    "picture": "f326ebe575bd5ad38621eb70fff22505977939c3.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Grave Hag",
+    "picture": "3ccb739ea459679589b84a9296ccea3703b477b3.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Griffin",
+    "picture": "faf1fee2dbe23404238a46d6bfd8a47f6e1389ef.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Faroe, Harviken tavern, Innkeeper",
+    "expansion": "Base game",
+    "name": "Harpy",
+    "picture": "3816ce257720965b132a0f77062249856c171000.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Havekar Healer (1 of 3)",
+    "picture": "0575d456cd7f871e267f43d7bde06439856d30a4.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Cunny of the Goose, Innkeeper",
+    "expansion": "Base game",
+    "name": "Havekar Healer (2 of 3)",
+    "picture": "71916d1ab989317e398afa08f3e6e043659acc16.png",
+    "territory": "Novigrad (Grassy Knoll)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Kingfisher Inn, Olivier OR Innkeep",
+    "expansion": "Base game",
+    "name": "Havekar Healer (3 of 3)",
+    "picture": "647d1ee62afde57b44bdacc15c7a8cf09a440dcf.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Seven Cats Inn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Havekar Smuggler (1 of 3)",
+    "picture": "d80ae33c41b49dce1de729357fec91c96876ece8.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Havekar Smuggler (2 of 3)",
+    "picture": "b1a673b572a154f32d9e942ee0cecb2d5f07b173.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Kingfisher Inn, Olivier OR Innkeep",
+    "expansion": "Base game",
+    "name": "Havekar Smuggler (3 of 3)",
+    "picture": "4d879ae8114f2e507978a181584e6139a0fef359.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Lindenvale, Merchant",
+    "expansion": "Base game",
+    "name": "Heavy Zerrikanian Fire Scorpion",
+    "picture": "4215003ecd4466eab061abab33807c7fd3447a91.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Spikeroog, Svorlag, Innkeeper",
+    "expansion": "Base game",
+    "name": "Ice Giant",
+    "picture": "bffb104bad922d67cf4bae64d751b54a296e2eaf.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Ida Emean aep Sivney",
+    "picture": "a9cf4a1f54bd802ae7e07b55c71650fe491de330.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Imlerith",
+    "picture": "6ad7f77a6239d122f0e676ad242e10c90228a24d.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Impenetrable Fog (1 of 3)",
+    "picture": "242f2cf9a7a741259a7999667a8ca411f35b77c1.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Impenetrable Fog (2 of 3)",
+    "picture": "242f2cf9a7a741259a7999667a8ca411f35b77c1.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Impenetrable Fog (3 of 3)",
+    "picture": "242f2cf9a7a741259a7999667a8ca411f35b77c1.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Crow's Perch, Trader",
+    "expansion": "Base game",
+    "name": "Impera Brigade Guard (1 of 4)",
+    "picture": "4e9fffba477e039a99f36013f99280abe79bd9e0.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Inn at the Crossroads, Innkeeper",
+    "expansion": "Base game",
+    "name": "Impera Brigade Guard (2 of 4)",
+    "picture": "4e9fffba477e039a99f36013f99280abe79bd9e0.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Seven Cats Inn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Impera Brigade Guard (3 of 4)",
+    "picture": "4e9fffba477e039a99f36013f99280abe79bd9e0.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Cunny of the Goose, Innkeeper",
+    "expansion": "Base game",
+    "name": "Impera Brigade Guard (4 of 4)",
+    "picture": "4e9fffba477e039a99f36013f99280abe79bd9e0.png",
+    "territory": "Novigrad (Grassy Knoll)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Shock Therapy, Ard Skellig, Gedyneith",
+    "expansion": "Base game",
+    "name": "Iorveth",
+    "picture": "7572b09c1216a3138b995626b845effcba07d021.png",
+    "territory": "Skellige",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "A Dangerous Game, Zed's home OR Prison Warden body during The Great Escape",
+    "expansion": "Base game",
+    "name": "Isengrim Faoiltiarna",
+    "picture": "e33772562d87f12abdc3da0247aded41cc9fdf19.png",
+    "territory": "Novigrad",
+    "type": "Secondary Quest OR Loot"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "A Dangerous Game, Golden Sturgeon Tavern, Ravvy OR Prison Warden body during The Great Escape",
+    "expansion": "Base game",
+    "name": "John Natalis",
+    "picture": "ad87d08db745f7fb17a4a36fcb9efd52cbb43c33.png",
+    "territory": "Novigrad",
+    "type": "Secondary Quest OR Loot"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Kaedweni Siege Expert (1 of 3)",
+    "picture": "6b0d019f9977d9e6e93a508128a2c7a2120d3399.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Kaedweni Siege Expert (2 of 3)",
+    "picture": "6b0d019f9977d9e6e93a508128a2c7a2120d3399.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Kaedweni Siege Expert (3 of 3)",
+    "picture": "6b0d019f9977d9e6e93a508128a2c7a2120d3399.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Kayran",
+    "picture": "2bbd68ffe725674837a5fdc9fe8463a5504106dd.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Keira Metz",
+    "picture": "6fae446b658b8570ab6b56b6d10720aa2961c0fd.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Gwent: Skellige Style, Ard Skellig, Gedyneith, Ermion",
+    "expansion": "Base game",
+    "name": "Leshen",
+    "picture": "826c6eaa1329111f915e7f89f7bfe55f8378a05f.png",
+    "territory": "Skellige",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Gwent: Velen Players, Oreton, Boatwright",
+    "expansion": "Base game",
+    "name": "Letho of Gulet",
+    "picture": "7ef235ba8d7dca37201bdd29a77df19571dc38b5.png",
+    "territory": "Velen",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Kingfisher Inn, Olivier OR Innkeep",
+    "expansion": "Base game",
+    "name": "Mahakaman Defender (1 of 5)",
+    "picture": "26efae1d28e714dbb2235d62c231e79c7e7412e9.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Golden Sturgeon, Innkeeper",
+    "expansion": "Base game",
+    "name": "Mahakaman Defender (2 of 5)",
+    "picture": "1c5575e1afef2aeb1f94395bf5cf301a0d34c7a4.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Seven Cats Inn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Mahakaman Defender (3 of 5)",
+    "picture": "972dea0a8bc664e2e3333a4552a70b5a7b7e13c5.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Oxenfurt, The Alchemy Inn, Stjepan",
+    "expansion": "Base game",
+    "name": "Mahakaman Defender (4 of 5)",
+    "picture": "746f679793125f181b4a4b051a9edb233dae00e3.png",
+    "territory": "Novigrad (Oxenfurt)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Passiflora, Marquise Serenity",
+    "expansion": "Base game",
+    "name": "Mahakaman Defender (5 of 5)",
+    "picture": "25800321ec9e4f05ff36b10ee95adfdf9ea8f665.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Gwent: Playing Innkeeps, Inn at the Crossroads, Innkeeper",
+    "expansion": "Base game",
+    "name": "Menno Coehoorn",
+    "picture": "4d673f18bf63219e46f3d89ecbc734e67452bd66.png",
+    "territory": "Velen",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "A Matter of Life and Death, Vegelbud Estate, Vladimir de Cret (first round)",
+    "expansion": "Base game",
+    "name": "Milva",
+    "picture": "0c585e3e2695edafbc73c15a4803b55061a7826e.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Midcopse, Shopkeeper",
+    "expansion": "Base game",
+    "name": "Morteisen",
+    "picture": "494998c5fd852a03da818519e43be97dc7e63bd3.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Gwent: Big City Players, Passiflora, Marquise Serenity",
+    "expansion": "Base game",
+    "name": "Morvran Voorhis",
+    "picture": "6f3cbe5447a96e0bfb0ef6139d2416b5980c030b.png",
+    "territory": "Novigrad",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Gwent: Skellige Style, Ard Skellig, Gedyneith, Gremist",
+    "expansion": "Base game",
+    "name": "Mysterious Elf",
+    "picture": "a1776986f45dd1e8d4fe368cac6b25b5e39cbe70.png",
+    "territory": "Skellige",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Crow's Perch, Quartermaster's Baron's Store",
+    "expansion": "Base game",
+    "name": "Nausicaa Cavalry Rider (1 of 3)",
+    "picture": "1ac1b6eee8d59f1665097a91d8cacff4a91af467.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Inn at the Crossroads, Innkeeper",
+    "expansion": "Base game",
+    "name": "Nausicaa Cavalry Rider (2 of 3)",
+    "picture": "1ac1b6eee8d59f1665097a91d8cacff4a91af467.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Crow's Perch, Trader",
+    "expansion": "Base game",
+    "name": "Nausicaa Cavalry Rider (3 of 3)",
+    "picture": "1ac1b6eee8d59f1665097a91d8cacff4a91af467.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Following the Thread, Faroe, Trottheim, loot Hammonds corpse",
+    "expansion": "Base game",
+    "name": "Nekker (1 of 3)",
+    "picture": "98c8c9870012af3294d74eb47eb94bff21a0d22c.png",
+    "territory": "Skellige",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Faroe, Harviken tavern, Innkeeper",
+    "expansion": "Base game",
+    "name": "Nekker (2 of 3)",
+    "picture": "983ea3561609e6a8ca93eed2283428bfee143e7b.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Nekker (3 of 3)",
+    "picture": "cb6743dc0d9848f541a85096719c33a9b4f34346.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Philippa Eilhart",
+    "picture": "223c02427996a6b7ae4a8b156b0d24fcd77ae3ed.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Plague Maiden",
+    "picture": "5137752a24b262579f5e387c67b938a968e6d71f.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Poor Fucking Infantry (1 of 4)",
+    "picture": "ab16bb946ffa8f8ea3ffeb5f885b8ae57c636755.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Poor Fucking Infantry (2 of 4)",
+    "picture": "ab16bb946ffa8f8ea3ffeb5f885b8ae57c636755.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Lindenvale, Merchant",
+    "expansion": "Base game",
+    "name": "Poor Fucking Infantry (3 of 4)",
+    "picture": "ab16bb946ffa8f8ea3ffeb5f885b8ae57c636755.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Midcopse, Shopkeeper",
+    "expansion": "Base game",
+    "name": "Poor Fucking Infantry (4 of 4)",
+    "picture": "ab16bb946ffa8f8ea3ffeb5f885b8ae57c636755.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Prince Stennis",
+    "picture": "d0950fe777c5e54491e406fdfce239ec6d41d39c.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Claywich Village, Trader (first rescue at persons in distress marker on the large island to the east of Oreton)",
+    "expansion": "Base game",
+    "name": "Puttkammer",
+    "picture": "9f79f4b69b343eca73f93defe1d30d6cdf7be4b8.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Lindenvale, Merchant",
+    "expansion": "Base game",
+    "name": "Rainfarn",
+    "picture": "5fec4d663b529163c76d4252c526185013a5d7fd.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Redanian Foot Soldier (1 of 2)",
+    "picture": "0842278c1ed4d16cddba176678537d43abe624fb.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Redanian Foot Soldier (2 of 2)",
+    "picture": "4bd1d0f50e457bb9eef5223e11100930f00a511e.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Renuald aep Matsen",
+    "picture": "b21115f3f9ad7b06b7a2a27e746b4164c3a50baa.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Riordain",
+    "picture": "2362ed26eadc5a162725892c920b537cde09317f.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Rotten Mangonel",
+    "picture": "18580ff3c7e69c4d3f9420ae40c0e00fa801886c.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Sabrina Glevissig",
+    "picture": "aedd00d1348fb3ebc967b6e287b071c4355ac0fa.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Gwent: Old Pals, Temerian Resistance Camp, Vernon Roche OR box located at Roche's hideout (has objective)",
+    "expansion": "Base game",
+    "name": "Saesenthessis",
+    "picture": "4589717b66d1c36bc53808e6aa85fc853710abe1.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Gwent Quest OR Loot"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Cunny of the Goose, Innkeeper",
+    "expansion": "Base game",
+    "name": "Scorch (1 of 3)",
+    "picture": "421be1f29d87afb7371867921f01d5d3f3869948.png",
+    "territory": "Novigrad (Grassy Knoll)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Ard Skellig, Kaer Trolde Harbor, New Port Inn, Innkeeper (can appear a 2nd time after inventory refresh)",
+    "expansion": "Base game",
+    "name": "Scorch (2 of 3)",
+    "picture": "421be1f29d87afb7371867921f01d5d3f3869948.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "An Skellig, Urialla Village, Innkeeper (note: card could be missing)",
+    "expansion": "Base game",
+    "name": "Scorch (3 of 3)",
+    "picture": "421be1f29d87afb7371867921f01d5d3f3869948.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Sheldon Skaggs",
+    "picture": "a61189bdadfc01c8fbc8408eede20708e62a050a.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Shilard Fitz-Oesterlen",
+    "picture": "430fe7b01fd6d96057c9ccc15b60a4580f50a459.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Inn at the Crossroads, Innkeeper",
+    "expansion": "Base game",
+    "name": "Siege Engineer",
+    "picture": "4abc348f6882ba9dab4af7b23019af1c49dfbb9e.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Golden Sturgeon, Innkeeper",
+    "expansion": "Base game",
+    "name": "Siege Technician",
+    "picture": "dd85cd1a1e2e15e3b9e2ad6cc30b26e6474c8047.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Siege Tower",
+    "picture": "cd52da1cbbed0129908d2bab8eb987a35037f522.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Siegfried of Denesle",
+    "picture": "05b736637fe9603c2e747e2472b5a53c39e15026.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Gwent: Velen Players, Crow's Perch, Phillip Strenger (Bloody Baron) OR search Baron's office (has objective)",
+    "expansion": "Base game",
+    "name": "Sigismund Dijkstra",
+    "picture": "dcebad07536e228a6ff1bd8a0eeecf6408cf9c70.png",
+    "territory": "Velen",
+    "type": "Gwent Quest OR Loot"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Síle de Tansarville",
+    "picture": "6f3785bb9bca0066018b96d35e7cc40ba939baba.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Stefan Skellen",
+    "picture": "e1a9755f4c704e9baf14a571d481b2ab0a998fc4.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Claywich Village, Trader (first rescue at persons in distress marker on the large island to the east of Oreton)",
+    "expansion": "Base game",
+    "name": "Sweers",
+    "picture": "f8dfe6c82a8a9121ce78d0d4edf5b208c61084a9.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Ard Skellig, Arinbjorn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Thaler",
+    "picture": "bcf549948e4be9b57d712a0a45ed9dea810d0b6d.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Gwent: Playing Innkeeps, Kingfisher Inn, Olivier OR Kingfisher Inn, room next to the bar (has objective)",
+    "expansion": "Base game",
+    "name": "Tibor Eggebracht",
+    "picture": "89ab9b014aa47e108181af74e8114eb8a4de41bb.png",
+    "territory": "Novigrad",
+    "type": "Gwent Quest OR Loot"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Torrential Rain (1 of 3)",
+    "picture": "902d65adae5cd9fda7ffff44a98047dc9ff60b2f.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game OR Randomly earned",
+    "expansion": "Base game",
+    "name": "Torrential Rain (2 of 3)",
+    "picture": "902d65adae5cd9fda7ffff44a98047dc9ff60b2f.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Included at start of game OR Randomly earned",
+    "expansion": "Base game",
+    "name": "Torrential Rain (3 of 3)",
+    "picture": "902d65adae5cd9fda7ffff44a98047dc9ff60b2f.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Toruviel",
+    "picture": "2e38f8fdbecb8ced03028aa5cd4aa483d7a773b2.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Trebuchet (1 of 2)",
+    "picture": "9eff25319b1a6ae1e6553605ceb86ae15c2a8486.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Trebuchet (2 of 2)",
+    "picture": "1c31ae99fd663023dd443048537caa665b5bccc5.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Gwent: Old Pals, The Nowhere Inn OR at Kaer Morhen, Lambert OR find at Kaer Morhen (has objective)",
+    "expansion": "Base game",
+    "name": "Triss Merigold",
+    "picture": "75275c7cee7bc761e0effb5a30363a438e320337.png",
+    "territory": "Novigrad",
+    "type": "Gwent Quest OR Loot"
+  },
+  {
+    "deck": "Monsters",
+    "details": "A Matter of Life and Death, Vegelbud Estate, Gomo Seeling (second round)",
+    "expansion": "Base game",
+    "name": "Vampire: Bruxa",
+    "picture": "d813f375e02ddb84f8ccc61e6f6f1c5e0b8c06d4.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Secondary Quest"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Spikeroog, Svorlag, Innkeeper",
+    "expansion": "Base game",
+    "name": "Vampire: Ekimmara",
+    "picture": "05d1590270fe8494b94ac9baee720e4264bde3e4.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Faroe, Harviken tavern, Innkeeper",
+    "expansion": "Base game",
+    "name": "Vampire: Fleder",
+    "picture": "3a12f4e1843edaa7571ada64b018ff827fca78e8.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Vampire: Garkain",
+    "picture": "6d308e6d0a44b0deb169285d1649d235790c5654.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Gwent: Skellige Style, Ard Skellig, Kaer Muire, Jarl Madman Lugos OR search Lugos' room (has objective)",
+    "expansion": "Base game",
+    "name": "Vampire: Katakan",
+    "picture": "a8b33072cdee80ca88a8e2d972b2a00e9b6a7f1f.png",
+    "territory": "Skellige",
+    "type": "Gwent Quest OR Loot"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Vanhemar",
+    "picture": "103bd141422cea57bbd96df48b23a5ceb9b7dd73.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Vattier de Rideaux",
+    "picture": "dff2e001731df9b252e7ffb5a8001c842f0a24cb.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Gwent: Velen Players, Midcopse, Haddy",
+    "expansion": "Base game",
+    "name": "Vernon Roche",
+    "picture": "0d705e30e982ea30a096bdace85132f357f885e8.png",
+    "territory": "Velen",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Ves",
+    "picture": "e70ca2d2e0e0d919ff67fe0a1b5b89e147c35b8c.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Gwent: Big City Players, Hierarch Square, Bank of Vivaldi, Vimme Vivaldi",
+    "expansion": "Base game",
+    "name": "Vesemir",
+    "picture": "2d0094d8b73b5a8dc855bc6ab3144ba93d824b8f.png",
+    "territory": "Novigrad",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Villentretenmerth",
+    "picture": "48808f130a452a12832b0a86bd279cdbb57fb4c9.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Vreemde",
+    "picture": "3c855ad256ea0646c42da5dc3a4c5c5e3aa124c6.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Vrihedd Brigade Recruit",
+    "picture": "3602a5f63b2c29476422c7e524f0c2ee0d9a7092.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Oxenfurt, The Alchemy Inn, Stjepan",
+    "expansion": "Base game",
+    "name": "Vrihedd Brigade Veteran (1 of 2)",
+    "picture": "21cfbeb2e7c7befe83a1aac4be72df52498d8d54.png",
+    "territory": "Novigrad (Oxenfurt)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Kingfisher Inn, Olivier OR Innkeep",
+    "expansion": "Base game",
+    "name": "Vrihedd Brigade Veteran (2 of 2)",
+    "picture": "87b692b5dfffdf0686abc706ffeb3fd83f70690a.png",
+    "territory": "Novigrad",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "An Skellig, Urialla Village, Innkeeper",
+    "expansion": "Base game",
+    "name": "Werewolf",
+    "picture": "0bf8e74fa4b0c2168f7a12a17903ad048f83063d.png",
+    "territory": "Skellige",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Randomly earned",
+    "expansion": "Base game",
+    "name": "Wyvern",
+    "picture": "f9564350fdeef1432603c4526a3e18b9e7e5c9cb.png",
+    "territory": "Random",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Gwent: Skellige Style, Ard Skellig, Kaer Trolde Harbor, Sjusta the Tailor",
+    "expansion": "Base game",
+    "name": "Yaevinn",
+    "picture": "63fbd8afbb1ddeb2ed3379504a4a05991f83ba4a.png",
+    "territory": "Skellige",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Included at start of game",
+    "expansion": "Base game",
+    "name": "Yarpen Zigrin",
+    "picture": "983a76ed7115ea83585bc69536fb5cec65c6655e.png",
+    "territory": "Base Deck",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Gwent: Playing Innkeeps, Oxenfurt, The Alchemy Inn, Stjepan",
+    "expansion": "Base game",
+    "name": "Yennefer of Vengerberg",
+    "picture": "56fafb773a0b6ae7711c71510d830285b558ad59.png",
+    "territory": "Novigrad (Oxenfurt)",
+    "type": "Gwent Quest"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Cunny of the Goose, Innkeeper",
+    "expansion": "Base game",
+    "name": "Young Emissary (1 of 2)",
+    "picture": "cbe35486c801a16eef6feb5793c5189c4a53eee6.png",
+    "territory": "Novigrad (Grassy Knoll)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Seven Cats Inn, Innkeeper",
+    "expansion": "Base game",
+    "name": "Young Emissary (2 of 2)",
+    "picture": "55cf5b3a6574aebde6b6cc204a4b2aaa45e755fd.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Crow's Perch, Trader",
+    "expansion": "Base game",
+    "name": "Zerrikanian Fire Scorpion",
+    "picture": "c9b9638ffcb1a453f04d8fa2b43b25129bd39903.png",
+    "territory": "Velen",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "White Orchard Tavern, Aldert Geert OR found under the Hanged Man's Tree after prologue",
+    "expansion": "Base game",
+    "name": "Zoltan Chivay",
+    "picture": "ab9d3678cdd6adeb167812d39b31df057b0c6202.png",
+    "territory": "White Orchard",
+    "type": "Win from Gwent Teacher"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Brunwich, Barn, Top floor",
+    "expansion": "Hearts of Stone",
+    "name": "Cow",
+    "picture": "5a07eb8031552b6bb6c5e7b0cc2829e01b215033.png",
+    "territory": "Novigrad (Brunwich)",
+    "type": "Loot"
+  },
+  {
+    "deck": "Nilfgaard",
+    "details": "Circus Camp near Carsten, Merchant",
+    "expansion": "Hearts of Stone",
+    "name": "Emhyr var Emreis: Invader of the North",
+    "picture": "33a375ee61894fa8098ae4196f2fcd00697356a4.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Upper Mill, Dulla kh'Amanni",
+    "expansion": "Hearts of Stone",
+    "name": "Eredin Bréacc Glas: The Treacherous",
+    "picture": "2314fc0861ad812d03c0dd7ffdaa999b44c537a2.png",
+    "territory": "Novigrad (Brunwich)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Northern Realms",
+    "details": "Circus Camp near Carsten, Merchant",
+    "expansion": "Hearts of Stone",
+    "name": "Foltest: Son of Medell",
+    "picture": "d1ec46bfcdf15187e412e7a4e86bf26d7a595113.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Upper Mill, Dulla kh'Amanni",
+    "expansion": "Hearts of Stone",
+    "name": "Francesca Findabair: Hope of the Aen Seidhe",
+    "picture": "7b24d29f689822bf587eea9dbb14d8b3be6c9c44.png",
+    "territory": "Novigrad (Brunwich)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Open Sesame!, Borsodi Brothers' Auction House, Robert Hilbert",
+    "expansion": "Hearts of Stone",
+    "name": "Gaunter O'Dimm",
+    "picture": "87fe3e0e2c9de71a0ac232a591603bb361af91da.png",
+    "territory": "Novigrad (Oxenfurt)",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Upper Mill, Dulla kh'Amanni",
+    "expansion": "Hearts of Stone",
+    "name": "Gaunter O'Dimm: Darkness (1 of 3)",
+    "picture": "3226a2c304784bf1cee3cdc9ba898f896d88a59d.png",
+    "territory": "Novigrad (Brunwich)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Circus Camp near Carsten, Merchant",
+    "expansion": "Hearts of Stone",
+    "name": "Gaunter O'Dimm: Darkness (2 of 3)",
+    "picture": "3226a2c304784bf1cee3cdc9ba898f896d88a59d.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Circus Camp near Carsten, Merchant",
+    "expansion": "Hearts of Stone",
+    "name": "Gaunter O'Dimm: Darkness (3 of 3)",
+    "picture": "3226a2c304784bf1cee3cdc9ba898f896d88a59d.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Buy from Trader"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Shani OR second floor of Shani's Clinic in Oxenfurt",
+    "expansion": "Hearts of Stone",
+    "name": "Olgierd von Everec",
+    "picture": "389312df994d84a63b927994469e719abfdeb5f2.png",
+    "territory": "Novigrad (Oxenfurt)",
+    "type": "Win from NPC OR Loot"
+  },
+  {
+    "deck": "Scoia'tael",
+    "details": "Circus Camp near Carsten, Merchant",
+    "expansion": "Hearts of Stone",
+    "name": "Schirrú",
+    "picture": "e43925add664e5321853cab8dce9160b226564fc.png",
+    "territory": "Novigrad (Gustfields)",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Monsters",
+    "details": "Olgierd von Everec OR on the table in The Alchemy inn",
+    "expansion": "Hearts of Stone",
+    "name": "Toad",
+    "picture": "471fc372d0f4db7cd5e8cc352264a164ba6e0c68.png",
+    "territory": "Novigrad (Oxenfurt)",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Berserker",
+    "picture": "74dc8b090f8de071066a1de45a2326348e669711.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Birna Bran",
+    "picture": "f0586e0c0d27cc3ecfbb5ecafcce0d975251dec7.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Blueboy Lugos",
+    "picture": "d57935d2d922b4f7825c72bdf778ae4707dda59d.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "The Barrel and Bung Inn, Innkeep",
+    "expansion": "Blood and Wine",
+    "name": "Cerys",
+    "picture": "3427a13ba4a7aa04954a0ec3dfff585aef65627f.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Clan an Craite Warrior (1 of 3)",
+    "picture": "6e0d19a41e7eb0693b318911bdcb1f9a7ed9d310.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Clan an Craite Warrior (2 of 3)",
+    "picture": "6e0d19a41e7eb0693b318911bdcb1f9a7ed9d310.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Clan an Craite Warrior (3 of 3)",
+    "picture": "6e0d19a41e7eb0693b318911bdcb1f9a7ed9d310.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Clan Brokvar Archer (1 of 3)",
+    "picture": "65b87b4c51243d389e84518d230646c22ded0af3.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Clan Brokvar Archer (2 of 3)",
+    "picture": "65b87b4c51243d389e84518d230646c22ded0af3.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Castel Ravello Vineyard, Herbalist",
+    "expansion": "Blood and Wine",
+    "name": "Clan Brokvar Archer (3 of 3)",
+    "picture": "65b87b4c51243d389e84518d230646c22ded0af3.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Beauclair, Hauteville, Dupont & Sons, Merchant",
+    "expansion": "Blood and Wine",
+    "name": "Clan Dimun Pirate",
+    "picture": "a3d6290a71bf7ca914105f40207dc6aa64208e0d.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Clan Drummond Shield Maiden (1 of 3)",
+    "picture": "7be734c88eaf92972c9407a97e4c514150ed4e50.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "The Cockatrice Inn, Innkeep",
+    "expansion": "Blood and Wine",
+    "name": "Clan Drummond Shield Maiden (2 of 3)",
+    "picture": "7be734c88eaf92972c9407a97e4c514150ed4e50.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Francollarts, Armorer",
+    "expansion": "Blood and Wine",
+    "name": "Clan Drummond Shield Maiden (3 of 3)",
+    "picture": "7be734c88eaf92972c9407a97e4c514150ed4e50.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Clan Heymaey Skald",
+    "picture": "b84c1360dcd5a757c34b336f7d00af45b6432fb9.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Clan Tordarroch Armorsmith",
+    "picture": "ccbc09a2986bbdba99fdd7742ce482f0fa2af402.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Crach an Craite",
+    "picture": "3dfb3c3c143b5afa011030195c83bab35c46a1ae.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Donar an Hindar",
+    "picture": "52876997250eb3e4b1a84bc47982475a77ed6f60.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "The Pheasantry, Innkeep",
+    "expansion": "Blood and Wine",
+    "name": "Draig Bon-Dhu",
+    "picture": "686762d9f37c6bf646a601ba9ce782e37dc3ce12.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Francollarts, Innkeep",
+    "expansion": "Blood and Wine",
+    "name": "Ermion",
+    "picture": "c161a8294e5415cc1b22a78f27aab0c54d03cae1.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Hjalmar",
+    "picture": "b1a3ad8f1344d1d78b4e5162b3e32332b116ab2c.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Holger Blackhand",
+    "picture": "1f2ef1bba4ef7ac60d4a0591203b17455dc910b1.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Francollarts, Innkeep",
+    "expansion": "Blood and Wine",
+    "name": "Kambi",
+    "picture": "b00845ced3dfa7814512fdc72053a06162dd8908.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Beauclair, Ducal Camerlengo",
+    "expansion": "Blood and Wine",
+    "name": "King Bran",
+    "picture": "9a04fc3d7e114c68d1f7b843f083ed63c507249a.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Light Longship (1 of 3)",
+    "picture": "e198519c158371b35d627d2191e1530e2575f0c9.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Light Longship (2 of 3)",
+    "picture": "e198519c158371b35d627d2191e1530e2575f0c9.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Beauclair, Hauteville, Perfumery, Merchant",
+    "expansion": "Blood and Wine",
+    "name": "Light Longship (3 of 3)",
+    "picture": "e198519c158371b35d627d2191e1530e2575f0c9.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Madman Lugos",
+    "picture": "afdb927b92474bced8734470e9a1a0f8b3819c0d.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Mardroeme (1 of 3)",
+    "picture": "12a8a79be3952314c091c5b677d79327af97bc9f.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Beauclair Port, The Belles of Beauclair, Madame Isabelle",
+    "expansion": "Blood and Wine",
+    "name": "Mardroeme (2 of 3)",
+    "picture": "12a8a79be3952314c091c5b677d79327af97bc9f.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Beauclair, Hauteville, Herb Store, Herbalist",
+    "expansion": "Blood and Wine",
+    "name": "Mardroeme (3 of 3)",
+    "picture": "12a8a79be3952314c091c5b677d79327af97bc9f.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Beauclair, The Adder and Jewels Winery, Sommelier",
+    "expansion": "Blood and Wine",
+    "name": "Olaf",
+    "picture": "b51ba8e352664f96ebd34535dc5d5cae56335c34.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Tourney Grounds, Armorer",
+    "expansion": "Blood and Wine",
+    "name": "Skellige Storm (1 of 3)",
+    "picture": "0df983d7b6f6dc9a27dd4e082b973b43271e7ecb.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Tourney Grounds, Barber",
+    "expansion": "Blood and Wine",
+    "name": "Skellige Storm (2 of 3)",
+    "picture": "0df983d7b6f6dc9a27dd4e082b973b43271e7ecb.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Neutral",
+    "details": "Beauclair Port, Butcher",
+    "expansion": "Blood and Wine",
+    "name": "Skellige Storm (3 of 3)",
+    "picture": "0df983d7b6f6dc9a27dd4e082b973b43271e7ecb.png",
+    "territory": "Toussaint",
+    "type": "Win From NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Svanrige",
+    "picture": "1c27c9374a52663ebf893f6d962b8d2a407f6c4c.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Udalryk",
+    "picture": "ee1b1c1e5b68f94f4a1325178083eb34732333e5.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "War Longship (1 of 3)",
+    "picture": "f8a91a4ee45e822b965fcfd58e2549acceba4121.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "War Longship (2 of 3)",
+    "picture": "f8a91a4ee45e822b965fcfd58e2549acceba4121.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Tourney Grounds, Innkeep",
+    "expansion": "Blood and Wine",
+    "name": "War Longship (3 of 3)",
+    "picture": "f8a91a4ee45e822b965fcfd58e2549acceba4121.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Received from Count Monnier",
+    "expansion": "Blood and Wine",
+    "name": "Young Berserker (1 of 3)",
+    "picture": "67b113179e769329bd8847e27d31daccc3ebc610.png",
+    "territory": "Toussaint",
+    "type": "Base Deck"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Tourney Grounds, Blacksmith",
+    "expansion": "Blood and Wine",
+    "name": "Young Berserker (2 of 3)",
+    "picture": "67b113179e769329bd8847e27d31daccc3ebc610.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  },
+  {
+    "deck": "Skellige",
+    "details": "Beauclair, Tailor's Workshop, Pierre",
+    "expansion": "Blood and Wine",
+    "name": "Young Berserker (3 of 3)",
+    "picture": "67b113179e769329bd8847e27d31daccc3ebc610.png",
+    "territory": "Toussaint",
+    "type": "Win from NPC"
+  }
+]

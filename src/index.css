@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Sora:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --text: #132118;
+  --muted: #5c6f5c;
+  --accent: #0f7d45;
+  --line: rgba(31, 68, 31, 0.16);
+  --surface: rgba(255, 255, 255, 0.82);
+  color: var(--text);
+  background: #eef2e8;
+  font-family: "Sora", "Avenir Next", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(122, 184, 129, 0.24),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      rgba(198, 174, 121, 0.2),
+      transparent 40%
+    ),
+    linear-gradient(160deg, #f5f8f0 0%, #edf2e8 45%, #e6ece2 100%);
+  color: var(--text);
+}
