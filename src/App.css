@@ -46,6 +46,14 @@
   letter-spacing: -0.02em;
 }
 
+.heroTopRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
 .eyebrow {
   margin: 0;
   font-size: 0.76rem;
@@ -55,10 +63,75 @@
   font-weight: 700;
 }
 
+.trophyToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.trophyToggle input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.trophyToggleTrack {
+  width: 2.3rem;
+  height: 1.3rem;
+  border-radius: 999px;
+  border: 1px solid #b6c8b7;
+  background: #d6e0d3;
+  padding: 0.12rem;
+  display: inline-flex;
+  align-items: center;
+  transition: background 130ms ease, border-color 130ms ease;
+}
+
+.trophyToggleThumb {
+  width: 0.92rem;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid #aebfae;
+  box-shadow: 0 1px 2px rgba(19, 34, 19, 0.22);
+  transition: transform 130ms ease;
+}
+
+.trophyToggle input:checked + .trophyToggleTrack {
+  background: #1a8b4f;
+  border-color: #187b47;
+}
+
+.trophyToggle input:checked + .trophyToggleTrack .trophyToggleThumb {
+  transform: translateX(0.98rem);
+}
+
+.trophyToggle input:focus-visible + .trophyToggleTrack {
+  box-shadow: 0 0 0 3px rgba(95, 147, 98, 0.2);
+}
+
+.trophyToggleText {
+  font-size: 0.74rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #2e4730;
+  white-space: nowrap;
+}
+
 .heroDescription {
   margin: 0;
   color: var(--muted);
   max-width: 60ch;
+}
+
+.trophyGuidance {
+  margin: 0.48rem 0 0;
+  color: #4a624c;
+  max-width: 62ch;
+  font-size: 0.82rem;
 }
 
 .heroMetrics {
@@ -188,6 +261,15 @@
   color: #425141;
 }
 
+.fieldHint {
+  margin-top: 0.06rem;
+  font-size: 0.72rem;
+  color: #546b56;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
 .filters input,
 .filters select {
   border: 1px solid #c6d4c4;
@@ -206,6 +288,12 @@
 .filters select:focus {
   border-color: #5f9362;
   box-shadow: 0 0 0 3px rgba(95, 147, 98, 0.18);
+}
+
+.filters select:disabled {
+  background: #eef3ec;
+  color: #425b45;
+  border-color: #c3d1c0;
 }
 
 .quickActions {
@@ -673,6 +761,10 @@ thead .stickyLeft {
     padding: 1rem;
   }
 
+  .heroTopRow {
+    align-items: flex-start;
+  }
+
   .heroMeter {
     order: -1;
     justify-items: center;
@@ -816,6 +908,14 @@ thead .stickyLeft {
   .heroCopy h1 {
     font-size: clamp(1.2rem, 7vw, 1.6rem);
     margin-top: 0.2rem;
+  }
+
+  .trophyToggleText {
+    font-size: 0.7rem;
+  }
+
+  .trophyGuidance {
+    font-size: 0.77rem;
   }
 
   .heroMetrics,

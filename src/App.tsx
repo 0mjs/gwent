@@ -42,6 +42,7 @@ type MissableIntel = {
 type CardRow = Card & { id: string; intel: MissableIntel };
 
 const COLLECTION_STORAGE_KEY = "gwent-collected-v1";
+const TROPHY_BASE_EXPANSION = "Base game";
 
 const RISK_ORDER: Record<MissableRisk, number> = {
   safe: 0,
@@ -139,6 +140,10 @@ const cards: CardRow[] = (rawCards as Card[]).map((card, index) => ({
   id: String(index),
   intel: buildMissableIntel(card)
 }));
+const baseGameCards = cards.filter(
+  (card) => card.expansion === TROPHY_BASE_EXPANSION
+);
+const baseGameCardIds = new Set(baseGameCards.map((card) => card.id));
 
 function uniqueValues(field: keyof Card) {
   return Array.from(new Set(cards.map((card) => card[field]))).sort((a, b) =>
@@ -221,6 +226,7 @@ function App() {
   const toggleSort = useCardFiltersStore((state) => state.toggleSort);
 
   const [checkedRows, setCheckedRows] = useState<Set<string>>(loadCollectedSet);
+  const [trophyHunterMode, setTrophyHunterMode] = useState(false);
   const masterCheckRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -239,8 +245,11 @@ function App() {
       .filter(Boolean);
 
     const result = cards.filter((card) => {
+      if (trophyHunterMode && card.expansion !== TROPHY_BASE_EXPANSION) {
+        return false;
+      }
       if (!matches(card.deck, deck)) return false;
-      if (!matches(card.expansion, expansion)) return false;
+      if (!trophyHunterMode && !matches(card.expansion, expansion)) return false;
       if (!matches(card.territory, territory)) return false;
       if (!matches(card.type, cardType)) return false;
       if (missableFilter !== "all" && card.intel.risk !== missableFilter) {
@@ -310,17 +319,21 @@ function App() {
     checkedFilter,
     checkedRows,
     sortField,
-    sortDirection
+    sortDirection,
+    trophyHunterMode
   ]);
 
-  const totalCards = cards.length;
-  const collectedCount = checkedRows.size;
+  const scopedCards = trophyHunterMode ? baseGameCards : cards;
+  const totalCards = scopedCards.length;
+  const collectedCount = [...checkedRows].filter(
+    (id) => !trophyHunterMode || baseGameCardIds.has(id)
+  ).length;
   const missingCount = totalCards - collectedCount;
   const collectedPercent = totalCards
     ? Math.round((collectedCount / totalCards) * 100)
     : 0;
-  const missableCards = cards.filter((card) => card.intel.risk === "missable");
-  const cautionCards = cards.filter((card) => card.intel.risk === "caution");
+  const missableCards = scopedCards.filter((card) => card.intel.risk === "missable");
+  const cautionCards = scopedCards.filter((card) => card.intel.risk === "caution");
   const missableRemaining = missableCards.filter(
     (card) => !checkedRows.has(card.id)
   ).length;
@@ -344,9 +357,18 @@ function App() {
   }, [someVisibleChecked]);
 
   const hasActiveFilters =
+    trophyHunterMode ||
     search.trim().length > 0 ||
     deck !== ALL_FILTER_VALUE ||
-    expansion !== ALL_FILTER_VALUE ||
+    (!trophyHunterMode && expansion !== ALL_FILTER_VALUE) ||
+    territory !== ALL_FILTER_VALUE ||
+    cardType !== ALL_FILTER_VALUE ||
+    missableFilter !== "all" ||
+    checkedFilter !== "all";
+  const hasActiveChips =
+    search.trim().length > 0 ||
+    deck !== ALL_FILTER_VALUE ||
+    (!trophyHunterMode && expansion !== ALL_FILTER_VALUE) ||
     territory !== ALL_FILTER_VALUE ||
     cardType !== ALL_FILTER_VALUE ||
     missableFilter !== "all" ||
@@ -355,7 +377,7 @@ function App() {
   const deckProgress = useMemo(() => {
     const progress = new Map<string, { total: number; collected: number }>();
 
-    for (const card of cards) {
+    for (const card of scopedCards) {
       if (!progress.has(card.deck)) {
         progress.set(card.deck, { total: 0, collected: 0 });
       }
@@ -380,7 +402,7 @@ function App() {
 
         return b.percent - a.percent || a.deck.localeCompare(b.deck);
       });
-  }, [checkedRows]);
+  }, [checkedRows, scopedCards]);
 
   const toggleRow = (id: string) => {
     setCheckedRows((previous) => {
@@ -413,12 +435,33 @@ function App() {
     <main className="appShell">
       <header className="hero cardSurface rise">
         <div className="heroCopy">
-          <p className="eyebrow">Gwent Collection Vault</p>
+          <div className="heroTopRow">
+            <p className="eyebrow">Gwent Collection Vault</p>
+            <label className="trophyToggle" htmlFor="trophy-hunter-toggle">
+              <input
+                id="trophy-hunter-toggle"
+                type="checkbox"
+                checked={trophyHunterMode}
+                onChange={(event) => setTrophyHunterMode(event.target.checked)}
+              />
+              <span className="trophyToggleTrack" aria-hidden="true">
+                <span className="trophyToggleThumb" />
+              </span>
+              <span className="trophyToggleText">Trophy Hunter</span>
+            </label>
+          </div>
           <h1>Collected {collectedCount} of {totalCards} cards</h1>
           <p className="heroDescription">
-            Track every card, filter instantly, and focus on what is still
-            missing. All filters and interactions run client-side in memory.
+            {trophyHunterMode
+              ? "Tracking base-game cards only (199 total) for trophy-focused planning."
+              : "Track every card, filter instantly, and focus on what is still missing. All filters and interactions run client-side in memory."}
           </p>
+          {trophyHunterMode ? (
+            <p className="trophyGuidance">
+              Card Collector usually unlocks before all 199 entries because it
+              checks card types, not every duplicate copy.
+            </p>
+          ) : null}
 
           <div className="heroMetrics">
             <article className="metricTile">
@@ -435,9 +478,17 @@ function App() {
             </article>
             <article className="metricTile">
               <span>Filter State</span>
-              <strong>{hasActiveFilters ? "Focused" : "All Cards"}</strong>
+              <strong>
+                {trophyHunterMode
+                  ? "Trophy Scope"
+                  : hasActiveFilters
+                    ? "Focused"
+                    : "All Cards"}
+              </strong>
               <small>
-                {hasActiveFilters
+                {trophyHunterMode
+                  ? "Expansion locked to base-game trophy scope"
+                  : hasActiveFilters
                   ? "Filters are actively narrowing results"
                   : "No filter constraints"}
               </small>
@@ -494,7 +545,8 @@ function App() {
           <label>
             Expansion
             <select
-              value={expansion}
+              value={trophyHunterMode ? TROPHY_BASE_EXPANSION : expansion}
+              disabled={trophyHunterMode}
               onChange={(event) => setExpansion(event.target.value)}
             >
               <option>{ALL_FILTER_VALUE}</option>
@@ -502,6 +554,9 @@ function App() {
                 <option key={option}>{option}</option>
               ))}
             </select>
+            {trophyHunterMode ? (
+              <small className="fieldHint">Locked to Base game in Trophy Hunter mode.</small>
+            ) : null}
           </label>
 
           <label>
@@ -606,7 +661,7 @@ function App() {
           </ul>
         </div>
 
-        {hasActiveFilters ? (
+        {hasActiveChips ? (
           <div className="activeChips">
             {search.trim() && (
               <button type="button" onClick={() => setSearch("")}>
@@ -618,7 +673,7 @@ function App() {
                 Deck: {deck} ×
               </button>
             )}
-            {expansion !== ALL_FILTER_VALUE && (
+            {!trophyHunterMode && expansion !== ALL_FILTER_VALUE && (
               <button
                 type="button"
                 onClick={() => setExpansion(ALL_FILTER_VALUE)}
@@ -687,7 +742,7 @@ function App() {
             <p>
               Showing {filteredCards.length} cards, {visibleCheckedCount}{" "}
               collected in this view. {missableRemaining} high-risk cards remain
-              overall.
+              in this scope.
             </p>
           </div>
           <div className="tableActions">
