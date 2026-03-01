@@ -20,6 +20,7 @@ type Card = {
   details: string;
   expansion: string;
   name: string;
+  picture: string;
   territory: string;
   type: string;
 };
@@ -43,6 +44,7 @@ type CardRow = Card & { id: string; intel: MissableIntel };
 
 const COLLECTION_STORAGE_KEY = "gwent-collected-v1";
 const TROPHY_BASE_EXPANSION = "Base game";
+const PICTURE_BASE_URL = "https://gwentcards.github.io/pictures/";
 
 const RISK_ORDER: Record<MissableRisk, number> = {
   safe: 0,
@@ -182,6 +184,10 @@ function deckTableLabel(deck: string) {
   return deck === "Northern Realms" ? "Realms" : deck;
 }
 
+function buildPictureUrl(picture: string) {
+  return `${PICTURE_BASE_URL}${encodeURIComponent(picture)}`;
+}
+
 function loadCollectedSet() {
   if (typeof window === "undefined") return new Set<string>();
 
@@ -209,6 +215,7 @@ function App() {
   const expansion = useCardFiltersStore((state) => state.expansion);
   const territory = useCardFiltersStore((state) => state.territory);
   const cardType = useCardFiltersStore((state) => state.cardType);
+  const trophyHunterMode = useCardFiltersStore((state) => state.trophyHunterMode);
   const missableFilter = useCardFiltersStore((state) => state.missableFilter);
   const checkedFilter = useCardFiltersStore((state) => state.checkedFilter);
   const sortField = useCardFiltersStore((state) => state.sortField);
@@ -218,6 +225,9 @@ function App() {
   const setExpansion = useCardFiltersStore((state) => state.setExpansion);
   const setTerritory = useCardFiltersStore((state) => state.setTerritory);
   const setCardType = useCardFiltersStore((state) => state.setCardType);
+  const setTrophyHunterMode = useCardFiltersStore(
+    (state) => state.setTrophyHunterMode
+  );
   const setMissableFilter = useCardFiltersStore(
     (state) => state.setMissableFilter
   );
@@ -226,7 +236,12 @@ function App() {
   const toggleSort = useCardFiltersStore((state) => state.toggleSort);
 
   const [checkedRows, setCheckedRows] = useState<Set<string>>(loadCollectedSet);
-  const [trophyHunterMode, setTrophyHunterMode] = useState(false);
+  const [imagePreview, setImagePreview] = useState<{
+    name: string;
+    src: string;
+  } | null>(null);
+  const [isImageLoading, setIsImageLoading] = useState(false);
+  const [imagePreviewError, setImagePreviewError] = useState(false);
   const masterCheckRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -236,6 +251,27 @@ function App() {
       JSON.stringify([...checkedRows])
     );
   }, [checkedRows]);
+
+  useEffect(() => {
+    if (!imagePreview) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setImagePreview(null);
+        setIsImageLoading(false);
+        setImagePreviewError(false);
+      }
+    };
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [imagePreview]);
 
   const filteredCards = useMemo(() => {
     const queryParts = search
@@ -784,6 +820,7 @@ function App() {
                 <th className="checkColumn stickyLeft">
                   <input
                     ref={masterCheckRef}
+                    className="coolCheckbox"
                     type="checkbox"
                     aria-label="Toggle all visible rows"
                     checked={allVisibleChecked}
@@ -843,6 +880,7 @@ function App() {
                     <tr key={card.id} className={isChecked ? "rowCollected" : ""}>
                       <td className="checkColumn stickyLeft">
                         <input
+                          className="coolCheckbox"
                           type="checkbox"
                           checked={isChecked}
                           onChange={() => toggleRow(card.id)}
@@ -885,6 +923,20 @@ function App() {
                             Tip: {card.intel.action} Cutoff: {card.intel.cutoff}
                           </p>
                         ) : null}
+                        <button
+                          type="button"
+                          className="detailImageButton"
+                          onClick={() => {
+                            setImagePreview({
+                              name: card.name,
+                              src: buildPictureUrl(card.picture)
+                            });
+                            setIsImageLoading(true);
+                            setImagePreviewError(false);
+                          }}
+                        >
+                          View image
+                        </button>
                       </td>
                     </tr>
                   );
@@ -894,6 +946,69 @@ function App() {
           </table>
         </div>
       </section>
+
+      {imagePreview ? (
+        <div
+          className="imageModalOverlay"
+          role="presentation"
+          onClick={() => {
+            setImagePreview(null);
+            setIsImageLoading(false);
+            setImagePreviewError(false);
+          }}
+        >
+          <section
+            className="imageModal"
+            role="dialog"
+            aria-modal="true"
+            aria-label={`${imagePreview.name} card image`}
+            onClick={(event) => event.stopPropagation()}
+          >
+            <header className="imageModalHeader">
+              <h3>{imagePreview.name}</h3>
+              <button
+                type="button"
+                className="imageModalClose"
+                onClick={() => {
+                  setImagePreview(null);
+                  setIsImageLoading(false);
+                  setImagePreviewError(false);
+                }}
+                aria-label="Close image preview"
+              >
+                Close
+              </button>
+            </header>
+            <div className="imageModalBody">
+              {isImageLoading ? (
+                <p className="imageModalStatus" role="status">
+                  Loading image...
+                </p>
+              ) : null}
+              {imagePreviewError ? (
+                <p className="imageModalStatus imageModalStatusError">
+                  Image unavailable.
+                </p>
+              ) : null}
+              <img
+                src={imagePreview.src}
+                alt={`${imagePreview.name} card`}
+                onLoad={() => {
+                  setIsImageLoading(false);
+                  setImagePreviewError(false);
+                }}
+                onError={() => {
+                  setIsImageLoading(false);
+                  setImagePreviewError(true);
+                }}
+                className={
+                  isImageLoading || imagePreviewError ? "imageModalImgHidden" : ""
+                }
+              />
+            </div>
+          </section>
+        </div>
+      ) : null}
     </main>
   );
 }

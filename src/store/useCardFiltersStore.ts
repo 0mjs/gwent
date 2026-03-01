@@ -21,6 +21,7 @@ type CardFiltersStore = {
   expansion: string;
   territory: string;
   cardType: string;
+  trophyHunterMode: boolean;
   missableFilter: MissableFilter;
   checkedFilter: CheckedFilter;
   sortField: SortField;
@@ -30,6 +31,7 @@ type CardFiltersStore = {
   setExpansion: (value: string) => void;
   setTerritory: (value: string) => void;
   setCardType: (value: string) => void;
+  setTrophyHunterMode: (value: boolean) => void;
   setMissableFilter: (value: MissableFilter) => void;
   setCheckedFilter: (value: CheckedFilter) => void;
   clearFilters: () => void;
@@ -42,6 +44,7 @@ const initialFilterState = {
   expansion: ALL_FILTER_VALUE,
   territory: ALL_FILTER_VALUE,
   cardType: ALL_FILTER_VALUE,
+  trophyHunterMode: false,
   missableFilter: "all" as MissableFilter,
   checkedFilter: "all" as CheckedFilter,
   sortField: "collected" as SortField,
@@ -57,6 +60,7 @@ export const useCardFiltersStore = create<CardFiltersStore>()(
       setExpansion: (expansion) => set({ expansion }),
       setTerritory: (territory) => set({ territory }),
       setCardType: (cardType) => set({ cardType }),
+      setTrophyHunterMode: (trophyHunterMode) => set({ trophyHunterMode }),
       setMissableFilter: (missableFilter) => set({ missableFilter }),
       setCheckedFilter: (checkedFilter) => set({ checkedFilter }),
       clearFilters: () =>
@@ -66,6 +70,7 @@ export const useCardFiltersStore = create<CardFiltersStore>()(
           expansion: ALL_FILTER_VALUE,
           territory: ALL_FILTER_VALUE,
           cardType: ALL_FILTER_VALUE,
+          trophyHunterMode: false,
           missableFilter: "all",
           checkedFilter: "all"
         }),
@@ -89,6 +94,7 @@ export const useCardFiltersStore = create<CardFiltersStore>()(
         expansion: state.expansion,
         territory: state.territory,
         cardType: state.cardType,
+        trophyHunterMode: state.trophyHunterMode,
         missableFilter: state.missableFilter,
         checkedFilter: state.checkedFilter,
         sortField: state.sortField,

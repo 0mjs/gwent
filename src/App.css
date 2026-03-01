@@ -591,9 +591,86 @@ thead .stickyLeft {
   width: 44px;
 }
 
-.checkColumn input[type="checkbox"] {
-  width: 1rem;
-  height: 1rem;
+.coolCheckbox {
+  --check-size: 1rem;
+  width: var(--check-size);
+  height: var(--check-size);
+  margin: 0;
+  border: 1.5px solid #8fa88f;
+  border-radius: 0.34rem;
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-grid;
+  place-content: center;
+  cursor: pointer;
+  background: linear-gradient(165deg, #ffffff, #edf4eb);
+  box-shadow:
+    0 1px 1px rgba(20, 39, 21, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  transition:
+    transform 110ms ease,
+    border-color 120ms ease,
+    background 140ms ease,
+    box-shadow 140ms ease;
+}
+
+.coolCheckbox::before {
+  content: "";
+  width: 0.56rem;
+  height: 0.32rem;
+  border: 2px solid transparent;
+  border-top: 0;
+  border-right: 0;
+  transform: translateY(-0.02rem) rotate(-45deg) scale(0.4);
+  opacity: 0;
+  transition: transform 120ms ease, opacity 120ms ease;
+}
+
+.coolCheckbox:hover:not(:disabled) {
+  transform: translateY(-1px);
+  border-color: #2e8c55;
+}
+
+.coolCheckbox:active:not(:disabled) {
+  transform: translateY(0) scale(0.94);
+}
+
+.coolCheckbox:checked,
+.coolCheckbox:indeterminate {
+  border-color: #187a47;
+  background: linear-gradient(165deg, #31b26f, #1a8b4f);
+  box-shadow:
+    0 2px 8px rgba(26, 139, 79, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.coolCheckbox:checked::before {
+  border-color: #ffffff;
+  opacity: 1;
+  transform: translateY(-0.03rem) rotate(-45deg) scale(1);
+}
+
+.coolCheckbox:indeterminate::before {
+  width: 0.56rem;
+  height: 0.14rem;
+  border: 0;
+  border-radius: 999px;
+  background: #ffffff;
+  opacity: 1;
+  transform: none;
+}
+
+.coolCheckbox:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(70, 147, 101, 0.24),
+    0 2px 8px rgba(26, 139, 79, 0.22);
+}
+
+.coolCheckbox:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+  transform: none;
 }
 
 .nameCell {
@@ -684,6 +761,147 @@ thead .stickyLeft {
   margin: 0.38rem 0 0;
   color: #436245;
   font-size: 0.8rem;
+}
+
+.detailImageButton {
+  margin-top: 0.5rem;
+  border: 1px solid #8eb79a;
+  border-radius: 0.48rem;
+  background: linear-gradient(165deg, #f9fcf8, #ebf3e8);
+  color: #245438;
+  padding: 0.3rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition:
+    border-color 140ms ease,
+    background 140ms ease,
+    transform 110ms ease;
+}
+
+.detailImageButton:hover {
+  border-color: #2b8c55;
+  background: linear-gradient(165deg, #eff9f2, #dff0e5);
+  transform: translateY(-1px);
+}
+
+.detailImageButton:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(70, 147, 101, 0.22);
+}
+
+.imageModalOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(10, 19, 14, 0.72);
+  backdrop-filter: blur(1.5px);
+  display: grid;
+  place-items: center;
+  padding: 1.1rem;
+}
+
+.imageModal {
+  width: min(640px, 100%);
+  max-height: calc(100vh - 3rem);
+  border: 1px solid #86a98f;
+  border-radius: 0.9rem;
+  background: linear-gradient(150deg, #f7fbf6, #ebf3e8);
+  box-shadow:
+    0 18px 38px rgba(7, 17, 11, 0.42),
+    0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.imageModalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.72rem 0.9rem;
+  border-bottom: 1px solid #cbddca;
+  background: linear-gradient(165deg, #eef8ee, #e4f0e3);
+}
+
+.imageModalHeader h3 {
+  margin: 0;
+  font-size: 0.94rem;
+  color: #1e3f2a;
+}
+
+.imageModalClose {
+  border: 1px solid #88af93;
+  border-radius: 0.46rem;
+  background: #f6faf5;
+  color: #244d33;
+  padding: 0.28rem 0.54rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.imageModalClose:hover {
+  border-color: #2b8c55;
+}
+
+.imageModalClose:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(70, 147, 101, 0.22);
+}
+
+.imageModalBody {
+  overflow: auto;
+  padding: 0.72rem;
+  display: grid;
+  place-items: center;
+  min-height: min(58vh, 580px);
+}
+
+.imageModalStatus {
+  margin: 0;
+  color: #255137;
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.58rem;
+}
+
+.imageModalStatus::before {
+  content: "";
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 999px;
+  border: 2px solid #b8d1be;
+  border-top-color: #27834f;
+  animation: imageModalSpin 0.8s linear infinite;
+}
+
+.imageModalStatusError::before {
+  content: none;
+}
+
+.imageModalImgHidden {
+  display: none;
+}
+
+.imageModalBody img {
+  display: block;
+  width: min(100%, 430px);
+  max-height: calc(100vh - 10.5rem);
+  object-fit: contain;
+  border-radius: 0.7rem;
+  border: 1px solid #c7d9c7;
+  background: #f7faf6;
+}
+
+@keyframes imageModalSpin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .riskCell {
@@ -885,9 +1103,8 @@ thead .stickyLeft {
     display: none;
   }
 
-  .checkColumn input[type="checkbox"] {
-    width: 1.1rem;
-    height: 1.1rem;
+  .coolCheckbox {
+    --check-size: 1.1rem;
   }
 }
 
