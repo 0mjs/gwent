@@ -1,3 +1,5 @@
+Note: Based on the exceptional dataset from https://github.com/gwentcards/gwentcards.github.io/
+
 # Gwent Card Table (Deno + Vite + React)
 
 Interactive, in-memory card table powered by `data/cards.json`.
